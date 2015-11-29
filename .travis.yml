@@ -9,6 +9,5 @@ install:
   - npm install
   - npm install -g gulp
   - gulp build 
-after_success:
-  - echo ${FIREBASE_TOKEN}
-  - firebase deploy --token ${FIREBASE_TOKEN}
+after_success:  
+  - firebase deploy --token "${FIREBASE_TOKEN}"
