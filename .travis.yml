@@ -10,4 +10,4 @@ install:
   - npm install -g gulp
   - gulp build 
 after_success:
-  - firebase deploy --token K3Pt0vf33JVnltT6TPc|99ceb5a1c4a1bd387ff2455038d785bb
+  - firebase deploy --token 'K3Pt0vf33JVnltT6TPc|99ceb5a1c4a1bd387ff2455038d785bb'
