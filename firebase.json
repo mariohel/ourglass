@@ -1,5 +1,5 @@
 {
-  "firebase": "ourglass",
+  "firebase": "incandescent-torch-4174",
   "public": "./dist",
   "ignore": [
     "firebase.json",
